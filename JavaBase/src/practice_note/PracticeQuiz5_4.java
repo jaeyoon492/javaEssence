@@ -8,7 +8,7 @@ public class PracticeQuiz5_4 {
 				{5, 5, 5, 5, 5},
 				{10, 10, 10, 10, 10},
 				{20, 20, 20, 20, 20},
-				{30, 30, 30, 30, 30}
+				{30, 30, 30, 30, 30},
 		};
 		int total = 0;
 		float average = 0;
@@ -16,9 +16,9 @@ public class PracticeQuiz5_4 {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
 				total += arr[i][j];
+				average = total /(float)(arr.length* arr[0].length);
 			}
 		}
-		average = total /(float)(arr.length * arr[0].length);
 		System.out.println("total=" + total);
 		System.out.println("average=" + average);
 	}
