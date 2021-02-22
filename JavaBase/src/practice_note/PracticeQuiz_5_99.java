@@ -1,5 +1,5 @@
 package practice_note;
-
+//^^
 public class PracticeQuiz_5_99 {
 	public static void main(String[] args) {
 		
