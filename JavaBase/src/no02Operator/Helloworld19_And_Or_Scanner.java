@@ -6,21 +6,21 @@ public class Helloworld19_And_Or_Scanner {
 		Scanner scanner=new Scanner(System.in);
 		char ch = ' ';
 		
-		System.out.printf("¹®ÀÚ¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä>");
+		System.out.printf("ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ï³ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½>");
 		
 		String input = scanner.nextLine();
 		ch= input.charAt(0);
 		
 		if('0' <= ch && ch<='9'){
-			System.out.printf("ÀÔ·ÂÇÏ½Å ¹®ÀÚ´Â ¼ýÀÚÀÔ´Ï´Ù.%n");
+			System.out.printf("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½Ú´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.%n");
 		}
 		
 		if(('a' <= ch && ch<='z')||('A'<=ch && ch<='Z')) {
-			System.out.printf("ÀÔ·ÂÇÏ½Å ¹®ÀÚ´Â ¿µ¹®ÀÚÀÔ´Ï´Ù.%n");
+			System.out.printf("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½Ú´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.%n");
 		}
 		
-		if('¤¡' <= ch && ch<='¤¾') {
-			System.out.printf("ÀÔ·ÂÇÏ½Å ¹®ÀÚ´Â ÇÑ±ÛÀÔ´Ï´Ù.%n");
+		if('ã…' <= ch && ch<='ã…') {
+			System.out.printf("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½Ú´ï¿½ ï¿½Ñ±ï¿½ï¿½Ô´Ï´ï¿½.%n");
 		}
 	}//main
 
