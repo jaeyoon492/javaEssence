@@ -9,7 +9,7 @@ public class Helloworld66_ClassMethod_TestClass2 {
 		System.out.println(cv);
 	}
 	static void staticMethod() {
-		System.out.println(iv);
+		//System.out.println(iv);
 		System.out.println(cv);
 	}
 }
