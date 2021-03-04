@@ -1,8 +1,5 @@
 package no05Object;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Helloworld69_Constructor_This {
 	public static void main(String[] args) {
 		Car2 c1 = new Car2();//1
@@ -13,16 +10,6 @@ public class Helloworld69_Constructor_This {
 		
 		System.out.println(c4.name + " " + c4.limitSpeed);
 		System.out.println(c5.name + " " + c5.limitSpeed);
-		
-		Map<String, String> map = new HashMap<String, String>();
-		map.put("color", "red");
-		map.put("gearType", "auto");
-		map.put("door", "4");
-		map.put("name", "아반떼");
-		map.put("limitSpeed", "550");
-		
-		System.out.println(map);
-		System.out.println(map.get("color"));
 		
 	}
 }
@@ -36,7 +23,7 @@ class Car2{
 	
 	Car2() {//기본생성자
 		this("white", "auto", 4,"아반떼");//1
-		// 내꺼중에("white", "auto", 4); 인 애를 찾아서 돌려라
+		// 내꺼중에("white", "auto", 4,"아반떼"); 인 애를 찾아서 돌려라
 	}
 	
 	Car2(String color){//매개변수가 있는 생성자
