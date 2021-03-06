@@ -6,22 +6,22 @@ public class Helloworld19_And_Or_Scanner {
 		Scanner scanner=new Scanner(System.in);
 		char ch = ' ';
 		
-		System.out.printf("���ڸ� �ϳ� �Է��ϼ���>");
+		System.out.println("1");
 		
 		String input = scanner.nextLine();
 		ch= input.charAt(0);
 		
 		if('0' <= ch && ch<='9'){
-			System.out.printf("�Է��Ͻ� ���ڴ� �����Դϴ�.%n");
+			System.out.println("2");
 		}
 		
 		if(('a' <= ch && ch<='z')||('A'<=ch && ch<='Z')) {
-			System.out.printf("�Է��Ͻ� ���ڴ� �������Դϴ�.%n");
+			System.out.println("3");
 		}
 		
-		if('ㅁ' <= ch && ch<='ㅁ') {
-			System.out.printf("�Է��Ͻ� ���ڴ� �ѱ��Դϴ�.%n");
-		}
+//		if('ㅁ' <= ch && ch<='ㅁ') {
+//			System.out.println("4");
+//		}
 	}//main
 
 }
